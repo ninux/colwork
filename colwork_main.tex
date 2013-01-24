@@ -1,0 +1,52 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{beamerthemeshadow}
+\usepackage{calc}
+\usepackage{ifthen}
+\usepackage{tikz}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{bchart}
+\usepackage{wrapfig}
+\usepackage{ulem}
+\usepackage{color}
+
+\definecolor{darkgreen}{rgb}{0.2,0.6,0.2}
+
+\usepackage{listings}
+
+\title{Kollaborative Texverarbeitung}
+\subtitle{mit \LaTeX, Git und Github}
+\author{Ervin Mazlagic}
+\institute{Zentralschweizer OpenSource Verein \\\textbf{LuXeria}}
+
+\begin{document}
+\maketitle
+
+% Listing settings
+\lstset{
+    breakwhitespace=true,
+    language=[LaTeX]TeX,
+    basicstyle=\footnotesize\ttfamily,
+    keywordstyle=\color{red}\bfseries,
+    idnetifierstyle=\color{blue},
+    commentstyle=\color{darkgreen},
+    stringstyle=\color{blue},
+    columns=fullflexible,
+    keepspaces=true,
+    breaklines=true,
+    tabsize=3,
+    showstringspaces=false,
+    extendedchars=truei
+    morekeywords={
+	\begin, 
+	\item,
+	\end}
+}
+
+\input{einleitung}
+\input{tex}
+
+\end{document}

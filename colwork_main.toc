@@ -1,0 +1,10 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {ngerman}
+\beamer@sectionintoc {1}{Einleitung}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Person}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{Ziele}{3}{0}{1}
+\beamer@subsectionintoc {1}{3}{Zielgruppen}{4}{0}{1}
+\beamer@subsectionintoc {1}{4}{Programm}{5}{0}{1}
+\beamer@sectionintoc {2}{\textlatin {T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m }~\& \textlatin {\LaTeX }}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{WYSIWYG und Andere}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{\textlatin {\LaTeX }}{8}{0}{2}
