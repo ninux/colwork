@@ -1,0 +1,13 @@
+*.aux
+*.ins
+*.log
+*.backup
+*.kilepr
+*.bbl
+*.blg
+*.lof
+*.lol
+*.lot
+*.out
+*.toc
+*.tex~
