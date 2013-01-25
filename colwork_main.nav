@@ -27,8 +27,10 @@
 \headcommand {\beamer@subsectionentry {0}{2}{2}{8}{\textlatin {\LaTeX }}}\headcommand {\beamer@subsectionpages {7}{7}}
 \headcommand {\slideentry {2}{2}{1}{8/8}{\textlatin {\LaTeX }}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\beamer@partpages {1}{8}}
-\headcommand {\beamer@subsectionpages {8}{8}}
-\headcommand {\beamer@sectionpages {6}{8}}
-\headcommand {\beamer@documentpages {8}}
-\headcommand {\def \inserttotalframenumber {8}}
+\headcommand {\slideentry {2}{2}{2}{9/9}{\textlatin {\LaTeX }}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\beamer@partpages {1}{9}}
+\headcommand {\beamer@subsectionpages {8}{9}}
+\headcommand {\beamer@sectionpages {6}{9}}
+\headcommand {\beamer@documentpages {9}}
+\headcommand {\def \inserttotalframenumber {9}}
