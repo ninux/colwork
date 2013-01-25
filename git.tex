@@ -1,0 +1,119 @@
+\subsection{Git}
+\begin{frame}
+	\frametitle{Git --- Dummkopf \hfill{} LuXeria}
+	\framesubtitle{Was ist Git?}
+	\begin{columns}
+		\begin{column}{5cm}
+			\begin{figure}
+				\includegraphics[width=0.8\columnwidth]{git_logo.pdf}
+				\caption{neues Git-Logo}
+			\end{figure}
+			\footnotesize{
+			\textbf{git}[\textipa{git}] - a bastard or fool
+			\epigraph{ I'm an egoistical bastard, and I name all my projects after myself.
+				First Linux, now git.}{Linus Torvalds}
+			}\normalsize
+		\end{column}
+		\begin{column}{5cm}
+			\begin{block}{Überblick}
+				\begin{itemize}
+					\item Verwaltungssystem
+					\item nicht linear
+					\item dezentral
+					\item sicher \& stabil
+					\item OpenSource
+					\item Plattformunabhängig
+				\end{itemize}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Git --- nicht linear?\hfill{} LuXeria}
+	\framesubtitle{Arbeiten mit Forks und Branches}
+	\begin{columns}
+		\begin{column}{5cm}
+			\begin{figure}
+				\includegraphics[scale=0.5]{git_tree.eps}\\
+				\textcolor{blue}{Fork} -- \textcolor{red}{master} -- \textcolor{darkgreen}{branch}
+				\caption{Projetkbaum}
+			\end{figure}
+		\end{column}
+		\begin{column}{5cm}
+			\begin{block}{Fork, Master \& Branch}
+				\begin{itemize}
+					\item \textcolor{red}{Arbeiten am Skript}
+					\item \textcolor{darkgreen}{Version HS12}
+					\item \textcolor{darkgreen}{Korrekturen im HS12}
+					\item \textcolor{blue}{Studenten übernehmen Kopie und erweitern}
+					\item \textcolor{red}{Das Beste kommt zusammen für FS13}
+				\end{itemize}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Git --- dezentral \hfill{} LuXeria}
+	\framesubtitle{Offline? Interessiert mich nicht!}
+	\begin{columns}
+		\begin{column}{5cm}
+			\begin{figure}
+				\includegraphics[scale=1.2]{git_local.eps}
+				\caption{Git -- einfach erklärt}
+			\end{figure}
+		\end{column}
+		\begin{column}{5cm}
+			\begin{block}{Dezentral? Wie geht das?}
+				\begin{itemize}
+					\item Jeder hat das Gesamte Projekt bei sich
+					\item Jede Änderung erzeugt neue eine Version
+					\item Jede Version hat einen Hash als Nummer
+					\item Lokal oder entfernt spielt keine Rolle!
+				\end{itemize}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Git --- sicher \& stabil \hfill{} LuXeria}
+	\framesubtitle{Wieso ist es sicher \& stabil?}
+	\begin{block}{Sicher weil}
+		\begin{itemize}
+			\item Versionen sind Teil des Ganzen
+			\item Nicht manipulierbar (Hash-Tree)
+			\item Versionen GPG signiert
+		\end{itemize}
+	\end{block}
+	\begin{block}{Stabil weil}
+		\begin{itemize}
+			\item Abgegrenzt (\lstinline$git - the stupid content tracker$)
+			\item Schlank und sauber
+			\item Arbeitet mit Referenzen
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Git --- Open \& Plattformunabhängig \hfill{} LuXeria}
+	\framesubtitle{Warum ist dies so wichtig?}
+	\begin{block}{OpenSource}
+		\begin{itemize}
+			\item Freiheit
+			\item Sicherheit
+			\item Support
+			\item Kosten
+		\end{itemize}
+	\end{block}
+	\begin{block}{Plattformunabhängig}
+		\begin{itemize}
+			\item Freiheit
+			\item Symbiose
+			\item Flexibilität
+			\item Stabilität
+		\end{itemize}
+	\end{block}
+\end{frame}
+
