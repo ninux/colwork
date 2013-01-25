@@ -8,3 +8,5 @@
 \beamer@sectionintoc {2}{\textlatin {T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m }~\& \textlatin {\LaTeX }}{6}{0}{2}
 \beamer@subsectionintoc {2}{1}{WYSIWYG und Andere}{7}{0}{2}
 \beamer@subsectionintoc {2}{2}{\textlatin {\LaTeX }}{8}{0}{2}
+\beamer@sectionintoc {3}{Git \& Github}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Git}{11}{0}{3}

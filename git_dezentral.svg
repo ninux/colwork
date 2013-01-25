@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="git_dezentral.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutM"
+       style="overflow:visible">
+      <path
+         id="path4045"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.4)" />
+    </marker>
+    <linearGradient
+       id="linearGradient8923">
+      <stop
+         style="stop-color:#0300ff;stop-opacity:1;"
+         offset="0"
+         id="stop8925" />
+      <stop
+         id="stop8927"
+         offset="0.5"
+         style="stop-color:#047f7f;stop-opacity:0.24705882;" />
+      <stop
+         id="stop8929"
+         offset="1"
+         style="stop-color:#06fe00;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient8911">
+      <stop
+         id="stop8919"
+         offset="0"
+         style="stop-color:#0300ff;stop-opacity:0.49803922;" />
+      <stop
+         style="stop-color:#00ff00;stop-opacity:0.49803922;"
+         offset="1"
+         id="stop8921" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient8899">
+      <stop
+         style="stop-color:#06fe00;stop-opacity:1;"
+         offset="0"
+         id="stop8901" />
+      <stop
+         id="stop8907"
+         offset="0.5"
+         style="stop-color:#3efe00;stop-opacity:0.49803922;" />
+      <stop
+         style="stop-color:#30fe00;stop-opacity:0.24705882;"
+         offset="0.75"
+         id="stop8909" />
+      <stop
+         style="stop-color:#22fe00;stop-opacity:0;"
+         offset="1"
+         id="stop8903" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutL"
+       style="overflow:visible">
+      <path
+         id="path4042"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path3909"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path3903"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4042-7"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8911"
+       id="linearGradient8917"
+       x1="247.5"
+       y1="332.36218"
+       x2="412.5"
+       y2="332.36218"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="963.08423"
+     inkscape:cy="778.80362"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1598"
+     inkscape:window-height="879"
+     inkscape:window-x="0"
+     inkscape:window-y="19"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       spacingx="4px"
+       spacingy="4px" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="125,325"
+       id="guide6734" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="140,345"
+       id="guide6736" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="140,365"
+       id="guide6738" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="140,385"
+       id="guide6740" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="145,405"
+       id="guide6742" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid6844"
+       empspacing="5"
+       visible="false"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       color="#ff0000"
+       opacity="0.1254902"
+       empcolor="#ff0000"
+       empopacity="0.25098039" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="330,737"
+       id="guide8889" />
+    <sodipodi:guide
+       orientation="-0.70710678,0.70710678"
+       position="860,828"
+       id="guide9793" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="fill:#fe0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="translate(-120,180)"
+       sodipodi:type="arc"
+       style="fill:#0000fe;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-3"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       style="fill:url(#linearGradient8917);fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0"
+       d="m 420,312.36218 c -60,16 -120,16 -180,0 l 0,0 0,40 0,0 c 60,-16 120,-16 180,0 l 0,0 0,-40"
+       id="path8897"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="translate(60,120)"
+       sodipodi:type="arc"
+       style="fill:#06fe00;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-4"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,320,246.18109)"
+       sodipodi:type="arc"
+       style="fill:#06fe00;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-4-5"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="translate(-120,120)"
+       sodipodi:type="arc"
+       style="fill:#0000fe;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-3-0"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="translate(0,280)"
+       sodipodi:type="arc"
+       style="fill:#fe0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-0"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutM);stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 380,211.36218 c 40,0 40,35 40,35"
+       id="path6947"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutM);stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 240,412.36218 c 0,80 40,80 94,80"
+       id="path7513"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="translate(0,200)"
+       sodipodi:type="arc"
+       style="fill:#fe0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-0-4"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutM);stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 420,352.36218 c 0,60 -34,60 -34,60"
+       id="path7533"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutM);stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 420,292.36218 0,14"
+       id="path7535"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutM);stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 240,352.36218 0,14"
+       id="path7537"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutM);stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 360,512.36218 0,15"
+       id="path7539"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutM);stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 360,432.36217 0,34.00001"
+       id="path7541"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutM);stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 360,312.3622 0,74"
+       id="path8659"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="translate(0,80)"
+       sodipodi:type="arc"
+       style="fill:#fe0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-0-4-2"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutM);stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 360,232.36218 0,34"
+       id="path8659-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49803922;stroke-dasharray:16, 16;stroke-dashoffset:0"
+       d="m 300,192.36218 0,340"
+       id="path8931"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png" />
+    <path
+       transform="translate(560,20)"
+       sodipodi:type="arc"
+       style="fill:#fe0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-36"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="translate(240,360)"
+       sodipodi:type="arc"
+       style="fill:#fe0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-9"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="translate(160,280)"
+       sodipodi:type="arc"
+       style="fill:#fe0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-01"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="translate(680,140)"
+       sodipodi:type="arc"
+       style="fill:#fe0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-96"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="translate(140,380)"
+       sodipodi:type="arc"
+       style="fill:#fe0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-7"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="translate(680,-20)"
+       sodipodi:type="arc"
+       style="fill:#fe0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-1"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="translate(580,120)"
+       sodipodi:type="arc"
+       style="fill:#fe0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-74"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="translate(140,180)"
+       sodipodi:type="arc"
+       style="fill:#fe0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-6"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,290,256.18109)"
+       sodipodi:type="arc"
+       style="fill:#06fe00;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-4-5-8"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,280,286.18109)"
+       sodipodi:type="arc"
+       style="fill:#06fe00;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-4-5-5"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,290,316.18109)"
+       sodipodi:type="arc"
+       style="fill:#0000fe;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-3-0-2"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,720,86.181091)"
+       sodipodi:type="arc"
+       style="fill:#0000fe;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-3-0-2-5"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,340,346.18109)"
+       sodipodi:type="arc"
+       style="fill:#06fe00;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-4-5-4"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,310,356.18109)"
+       sodipodi:type="arc"
+       style="fill:#06fe00;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-4-5-8-6"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,300,386.18109)"
+       sodipodi:type="arc"
+       style="fill:#06fe00;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-4-5-5-6"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,310,416.18109)"
+       sodipodi:type="arc"
+       style="fill:#0000fe;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-3-0-2-4"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,320,446.18109)"
+       sodipodi:type="arc"
+       style="fill:#06fe00;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-4-5-0"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,290,456.18109)"
+       sodipodi:type="arc"
+       style="fill:#06fe00;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-4-5-8-0"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,280,486.18109)"
+       sodipodi:type="arc"
+       style="fill:#06fe00;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-4-5-5-9"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,290,516.18109)"
+       sodipodi:type="arc"
+       style="fill:#0000fe;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-3-0-2-0"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,420,426.18109)"
+       sodipodi:type="arc"
+       style="fill:#06fe00;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-4-5-6"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,390,436.18109)"
+       sodipodi:type="arc"
+       style="fill:#06fe00;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-4-5-8-4"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,380,466.18109)"
+       sodipodi:type="arc"
+       style="fill:#06fe00;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-4-5-5-65"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,390,496.18109)"
+       sodipodi:type="arc"
+       style="fill:#0000fe;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-3-0-2-40"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,900,266.18109)"
+       sodipodi:type="arc"
+       style="fill:#0000fe;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-3-0-2-8"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,880,46.181091)"
+       sodipodi:type="arc"
+       style="fill:#0000fe;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-3-0-2-1"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(0.5,0,0,0.5,735,266.18109)"
+       sodipodi:type="arc"
+       style="fill:#0000fe;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-3-0-2-08"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(-1,0,0,-1,1440,484.72437)"
+       sodipodi:type="arc"
+       style="fill:#fe0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-1-7"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(-0.5,0,0,-0.5,1300,358.54327)"
+       sodipodi:type="arc"
+       style="fill:#0000fe;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-3-0-2-1-9"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       transform="matrix(1.5000006,0,0,1.5000006,459.99979,-46.181216)"
+       sodipodi:type="arc"
+       style="fill:#0000fe;fill-opacity:1;stroke:#000000;stroke-width:1.3333329;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6846-3-0-2-1-9-9"
+       sodipodi:cx="360"
+       sodipodi:cy="212.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 380,212.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/ninux/studium/colwork/colwork_pres/git_tree.png"
+       inkscape:export-xdpi="1199.9572"
+       inkscape:export-ydpi="1199.9572" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1000,272.36218 -60,60 z"
+       id="path9785"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 920,232.36218 80,40"
+       id="path9787"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1040,192.36218 -40,80"
+       id="path9789"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1080,272.36218 -80,0"
+       id="path9791"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1000,272.36218 40,80"
+       id="path9795"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

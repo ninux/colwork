@@ -5,14 +5,17 @@
 \begin{block}{\LaTeX~Code}
 
 \begin{lstlisting}{Bsp}
-Einige Vorteile von \LaTeX:
-
+Einige Vorteile von \LaTeX:\\
 % Hier folgt
 % eine Aufzaehlung
 \begin{itemize}
   \item Freie Software
   \item $\sum\frac{n}{1-n^2}$
   \item Professioneller Satz
+  \item Plattformunabhängig
+  \item Logisch/ftrukturiert
+  \item Einheitlich
+  \item Einfache Verwaltung
 \end{itemize}
 \end{lstlisting}
 
@@ -20,12 +23,16 @@ Einige Vorteile von \LaTeX:
 \end{column}
 \begin{column}{5cm}
 \begin{block}{Ausgabe}
-Einige Vorteile von \LaTeX:
+Einige Vorteile von \LaTeX:\\
 % eine Aufzaehlung
 \begin{itemize}
 \item Freie Software
 \item $\sum\frac{n}{1-n^2}$
 \item Professioneller Satz
+\item Plattformunabhängig
+\item Logisch/Strukturiert
+\item Einheitlich
+\item Einfache Verwaltung
 \end{itemize}
 \end{block}
 \end{column}

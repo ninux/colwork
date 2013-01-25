@@ -12,6 +12,8 @@
 \usepackage{wrapfig}
 \usepackage{ulem}
 \usepackage{color}
+\usepackage{epigraph}
+\usepackage{tipa}
 
 \definecolor{darkgreen}{rgb}{0.2,0.6,0.2}
 
@@ -27,6 +29,7 @@
 
 % Listing settings
 \lstset{
+%    morekeywords={\tableofcontents},
     breakwhitespace=true,
     language=[LaTeX]TeX,
     basicstyle=\footnotesize\ttfamily,
@@ -39,14 +42,22 @@
     breaklines=true,
     tabsize=3,
     showstringspaces=false,
-    extendedchars=truei
+    extendedchars=true,
+    literate={Ö}{{\"O}}1
+    	     {ö}{{\"o}}1
+	     {Ä}{{\"A}}1
+	     {ä}{{\"a}}1
+	     {Ü}{{\"U}}1
+	     {ü}{{\"u}}1,
     morekeywords={
 	\begin, 
 	\item,
-	\end}
+	\end,
+	\tableofcontents}
 }
 
 \input{einleitung}
 \input{tex}
+\input{github}
 
 \end{document}

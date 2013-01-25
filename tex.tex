@@ -6,10 +6,10 @@
 
 \subsection{WYSIWYG und Andere}
 \begin{frame}
-	\frametitle{What You See Is What You Get? \hfill{} \footnotesize{LuXeria}}
+	\frametitle{What You See Is (More Or Less) What You Get! \hfill{} \footnotesize{LuXeria}}
 	\begin{columns}
 		\begin{column}{5cm}
-			\begin{alertblock}{WYSIWYG}
+			\begin{alertblock}{WYSI(MOL)WYG}
 				\begin{itemize}
 					\item Was du siehst ist das, was du bekommst!
 					\item Interagiert mit Systemdaten (Druckertreiber etc.)
@@ -37,19 +37,48 @@
 \begin{frame}[fragile]
 	\frametitle{\LaTeX \hfill{} \footnotesize{LuXeria}}
 	\framesubtitle{Aufbau von \TeX-Dokumenten}
-	\begin{block}{Präambel}
-	Hier stehen Definitionen zu Layout und Funktionalität.
-	\end{block}
-	\begin{block}{Dokumenteninhalt}
-	Hier steht der Inhalt als 'reiner' Inhalt.
-		\begin{columns}
-			\begin{column}{6cm}
-				\begin{alertblock}{externe Inhalte}
-					Externe Inhalte die eingebunden werden wie Bilder, Verzeichnisse etc.
-				\end{alertblock}
+	\begin{columns}
+		\begin{column}{5cm}
+			\begin{block}{Dokument}
+				\begin{columns}
+				\begin{column}{4cm}
+				\begin{exampleblock}{Präambel}
+					Layout, Definitionen, Bedingungen usw.
+				\end{exampleblock}
+				\begin{exampleblock}{Dokumenteninhalt}
+					Reiner Inhalt
+					\begin{columns}
+						\begin{column}{3cm}
+							\begin{alertblock}{externe Inhalte}
+								Verzeichnisse, Bilder usw.
+							\end{alertblock}
+						\end{column}
+					\end{columns}
+				\end{exampleblock}
 			\end{column}
-		\end{columns}
-	\end{block}
+			\end{columns}
+			\end{block}
+			%\end{column}
+		\end{column}
+		\begin{column}{5cm}
+			\begin{block}{Beispiel}
+			\begin{lstlisting}
+\documentclass{beamer}
+...
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+...
+\begin{document}
+  \tableofcontents
+			
+  \section{Einleitung}
+    \input{einleitung}
+    
+\end{document}			
+			\end{lstlisting}
+			\end{block}
+		\end{column}
+	\end{columns}
 \end{frame}
 
 
@@ -61,14 +90,17 @@
 			\begin{block}{\LaTeX~Code}
 				
 \begin{lstlisting}{Bsp}
-Einige Vorteile von \LaTeX:
-
+Einige Vorteile von \LaTeX:\\
 % Hier folgt 
 % eine Aufzaehlung
 \begin{itemize}
   \item Freie Software
   \item $\sum\frac{n}{1-n^2}$
   \item Professioneller Satz
+  \item Plattformunabhängig
+  \item Logisch/ftrukturiert
+  \item Einheitlich
+  \item Einfache Verwaltung
 \end{itemize}
 \end{lstlisting}
 				
@@ -76,12 +108,16 @@ Einige Vorteile von \LaTeX:
 		\end{column}
 		\begin{column}{5cm}
 			\begin{block}{Ausgabe}
-				Einige Vorteile von \LaTeX:
+				Einige Vorteile von \LaTeX:\\
 				% eine Aufzaehlung
 				\begin{itemize}
 					\item Freie Software
 					\item $\sum\frac{n}{1-n^2}$
 					\item Professioneller Satz
+					\item Plattformunabhängig
+					\item Logisch/Strukturiert
+					\item Einheitlich
+					\item Einfache Verwaltung
 				\end{itemize}
 			\end{block}
 		\end{column}
