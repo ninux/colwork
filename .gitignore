@@ -5,9 +5,13 @@
 *.kilepr
 *.bbl
 *.blg
+*.nav
 *.lof
 *.lol
 *.lot
 *.out
 *.toc
 *.tex~
+*.swp
+*.snm
+*.vrb
