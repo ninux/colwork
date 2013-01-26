@@ -126,12 +126,11 @@ Einige Vorteile von \LaTeX:\\
 
 \begin{frame}[fragile]
     \frametitle{\LaTeX~--- Environments\hfill{} LuXeria}
-    \framesubtitle{Circuitikz}
+    \framesubtitle{Circuitikz -- Analogtechnik}
     \begin{columns}
         \begin{column}{6cm}
             \begin{block}{Zweipol}
 \begin{lstlisting}
-\ctikzset{bipoles/length=1.4cm}
 \begin{circuitikz}[scale=0.9]\draw
   (0,0) node[anchor=east]{B}
   to[short, o-*](1,0)
@@ -140,7 +139,8 @@ Einige Vorteile von \LaTeX:\\
   to[V=$U_q$](4,0)--(3,0)
   to[R=$R_3$, *-*](3,2)
   (3,0)--(1,0)
-  (1,2) to[short,-o](0,2) node[anchor=east]{A}
+  (1,2) to[short,-o]
+  (0,2) node[anchor=east]{A}
 ;\end{circuitikz}
 \end{lstlisting}
             \end{block}
@@ -160,3 +160,42 @@ Einige Vorteile von \LaTeX:\\
         \end{column}
     \end{columns}
 \end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{\LaTeX~--- Environments \hfill{} LuXeria}
+    \framesubtitle{Circuitikz -- Digitaltechnik}
+    \begin{columns}
+        \begin{column}{6cm}
+            \begin{block}{UND, ODER?}
+\begin{lstlisting}
+\begin{circuitikz}\draw
+  (0,2) node[and port] (and1) {}
+  (0,0) node[and port] (and2) {}
+  (2,1) node[xnor port] (xnor1) {}
+  (and1.out)-|(xnor1.in 1)
+  (and2.out)-|(xnor1.in 2)
+  % Beschriftung
+  (and1.in 1) node[anchor=east] {a}
+  (and1.in 2) node[anchor=east] {b}
+  ...
+;\end{circuitikz}
+\end{lstlisting}
+            \end{block}
+        \end{column}
+        \begin{column}{4cm}
+           \begin{circuitikz}\draw
+	   	(0,2) node[and port] (and1) {}
+		(0,0) node[and port] (and2) {}
+		(2,1) node[xnor port] (xnor) {}
+		(and1.out)-|(xnor.in 1)
+		(and2.out)-|(xnor.in 2)
+		(and1.in 1) node[anchor=east] {a}
+		(and1.in 2) node[anchor=east] {b}
+		(and2.in 1) node[anchor=east] {c}
+		(and2.in 2) node[anchor=east] {d}
+		(xnor.out) node[anchor=west] {y}
+	   ;\end{circuitikz}
+        \end{column}
+    \end{columns}
+\end{frame}
+
