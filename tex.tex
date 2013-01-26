@@ -6,7 +6,8 @@
 
 \subsection{WYSIWYG und Andere}
 \begin{frame}
-    \frametitle{What You See Is (More Or Less) What You Get! \hfill{} \footnotesize{LuXeria}}
+	\frametitle{WYSIWYG \hfill{} LuXeria}
+    \framesubtitle{What You See Is (More Or Less) What You Get!}
     \begin{columns}
         \begin{column}{5cm}
             \begin{alertblock}{WYSI(MOL)WYG}
@@ -31,6 +32,21 @@
             \end{exampleblock}
         \end{column}
     \end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{WYSIWYG \hfill{} LuXeria}
+	\framesubtitle{Warum ist WYSIWYG problematisch?}
+	\begin{alertblock}{Eigenschaften vieler WYSIWYG-Programme}
+		\begin{itemize}
+			\item isoliert Autoren
+			\item Austausch ist erschwert/behindert
+			\item viele Abhängigkeiten (SW-Versionen, HW, System ...)
+			\item (hohe Kosten)
+			\item unerklärliches Verhalten
+			\item erzeugt überladene Dateien ($\Rightarrow$ Crash)
+		\end{itemize}
+	\end{alertblock}
 \end{frame}
 
 \subsection{\LaTeX}
@@ -125,12 +141,124 @@ Einige Vorteile von \LaTeX:\\
 \end{frame}
 
 \begin{frame}[fragile]
+    \frametitle{\LaTeX~--- Environments \hfill{} LuXeria}
+    \framesubtitle{Mathematik -- Inline \& abgesetzt}
+    \begin{columns}
+        \begin{column}{5cm}
+            \begin{block}{Mathematik im Satz}
+\begin{lstlisting}
+... dann ist
+$ nev\pi \frac{d^2}{4} $ 
+die Ladungsmenge, die pro ...
+\end{lstlisting}
+            \end{block}
+            \begin{block}{Mathematik abgesetzt}
+\begin{lstlisting}
+... berechnet sich nach Gauss: 
+\[ \oint E' \cdot dA' = 
+   \frac{1}{\epsilon_0} 
+   \int \rho' dV' 
+\]
+\end{lstlisting}
+            \end{block}
+        \end{column}
+        \begin{column}{5cm}
+            \begin{block}{Mathematik im Satz}
+            ...dann ist $nev\pi \frac{d^2}{4}$ die Ladungsmenge,
+            die pro ...% Zeiteinheit durch den ganzen Leiterquerschnitt fliesst,
+            %also die Stromstärke $I$.
+            \end{block}
+            \begin{block}{Mathematik abgesetzt}
+            ... berechnet sich nach Gauss:
+            \[ \oint E' \cdot dA' = \frac{1}{\epsilon_0} \int \rho' dV' \]
+            \end{block}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{\LaTeX~--- Environments \hfill{} LuXeria}
+    \framesubtitle{TikZ -- TikZ ist kein Zeichenprogramm}
+    \begin{columns}
+        \begin{column}{6cm}
+            \begin{block}{Pie-Chart Code}
+\begin{lstlisting}
+\begin{figure}
+  \begin{tikzpicture}
+    \pie[radius=1.75]{
+        15/ HSLU,
+        35/ ETH,
+        10/ UZH,
+        25/ MIT,
+        15/ k.A}
+  \end{tikzpicture}
+  \caption{Ein 'pie'-Chart}
+\end{figure}
+\end{lstlisting}
+            \end{block}
+        \end{column}
+        \begin{column}{5cm}
+            \begin{figure}
+                \begin{tikzpicture}
+                    \pie[radius=1.75]{
+                        15/ HSLU,
+                        35/ ETH,
+                        10/ UZH,
+                        25/ MIT,
+                        15/ k.A}
+                \end{tikzpicture}
+                \caption{Ein 'pie'-Chart}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{\LaTeX~--- Environments \hfill{} LaTeX}
+    \framesubtitle{TikZ -- TikZ ist kein Zeichenprogramm}
+    \begin{columns}
+        \begin{column}{5cm}
+            \begin{block}{Bar-Chart Code}
+                \begin{lstlisting}
+\begin{figure}
+  \begin{bchart}[step=20, 
+                 max=60,
+                 scale=0.65]
+     \bcbar[text=HSLU]{15}
+     \bcbar[text=ETH]{35}
+     \bcbar[text=UZH]{10}
+     \bcbar[text=MIT]{25}
+     \bcbar[text=k.A]{15}
+   \end{bchart}
+   \caption{Ein 'bar'-Chart}
+ \end{figure}
+                \end{lstlisting}
+            \end{block}
+        \end{column}
+        
+        \begin{column}{6cm}
+            \begin{figure}
+                \begin{bchart}[step=10, max=40, scale=0.65]
+                    \bcbar[text=HSLU]{15}
+                    \bcbar[text=ETH]{35}
+                    \bcbar[text=UZH]{10}
+                    \bcbar[text=MIT]{25}
+                    \bcbar[text=k.A]{15}
+                \end{bchart}
+                \caption{Ein 'bar'-Chart}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}[fragile]
     \frametitle{\LaTeX~--- Environments\hfill{} LuXeria}
     \framesubtitle{Circuitikz -- Analogtechnik}
     \begin{columns}
         \begin{column}{6cm}
-            \begin{block}{Zweipol}
+            \begin{block}{Zweipol-Schaltung}
 \begin{lstlisting}
+\ctikzset{bipoles/length=1cm}
 \begin{circuitikz}[scale=0.9]\draw
   (0,0) node[anchor=east]{B}
   to[short, o-*](1,0)
@@ -146,7 +274,7 @@ Einige Vorteile von \LaTeX:\\
             \end{block}
         \end{column}
         \begin{column}{5cm}
-            \ctikzset{bipoles/length=1.4cm}
+            \ctikzset{bipoles/length=1cm}
             \begin{circuitikz}[scale=0.9]\draw
                 (0,0) node[anchor=east]{B}
                 to[short, o-*](1,0)
@@ -166,7 +294,7 @@ Einige Vorteile von \LaTeX:\\
     \framesubtitle{Circuitikz -- Digitaltechnik}
     \begin{columns}
         \begin{column}{6cm}
-            \begin{block}{UND, ODER?}
+            \begin{block}{DNF-Schaltung}
 \begin{lstlisting}
 \begin{circuitikz}\draw
   (0,2) node[and port] (and1) {}
@@ -182,20 +310,19 @@ Einige Vorteile von \LaTeX:\\
 \end{lstlisting}
             \end{block}
         \end{column}
-        \begin{column}{4cm}
+        \begin{column}{5cm}
            \begin{circuitikz}\draw
-	   	(0,2) node[and port] (and1) {}
-		(0,0) node[and port] (and2) {}
-		(2,1) node[xnor port] (xnor) {}
-		(and1.out)-|(xnor.in 1)
-		(and2.out)-|(xnor.in 2)
-		(and1.in 1) node[anchor=east] {a}
-		(and1.in 2) node[anchor=east] {b}
-		(and2.in 1) node[anchor=east] {c}
-		(and2.in 2) node[anchor=east] {d}
-		(xnor.out) node[anchor=west] {y}
-	   ;\end{circuitikz}
+        (0,2) node[and port] (and1) {}
+        (0,0) node[and port] (and2) {}
+        (2,1) node[xnor port] (xnor) {}
+        (and1.out)-|(xnor.in 1)
+        (and2.out)-|(xnor.in 2)
+        (and1.in 1) node[anchor=east] {a}
+        (and1.in 2) node[anchor=east] {b}
+        (and2.in 1) node[anchor=east] {c}
+        (and2.in 2) node[anchor=east] {d}
+        (xnor.out) node[anchor=west] {y}
+       ;\end{circuitikz}
         \end{column}
     \end{columns}
 \end{frame}
-
